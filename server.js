@@ -3,7 +3,6 @@ const app = express();
 const port = 5000;
 const fs = require('fs')
 const url = require('url')
-
 const content = require('./content.txt')
 const urlData = {}
 let durationInMilliseconds;
